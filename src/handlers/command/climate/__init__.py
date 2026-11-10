@@ -10,6 +10,7 @@ from handlers.command.climate.climate_front_window_heat import (
 )
 from handlers.command.climate.climate_heated_seats_level import (
     ClimateHeatedSeatsFrontLeftLevelCommand,
+    ClimateHeatedSeatsFrontLevelsCommand,
     ClimateHeatedSeatsFrontRightLevelCommand,
 )
 from handlers.command.climate.climate_remote_climate_state import (
@@ -32,5 +33,6 @@ ALL_COMMAND_HANDLERS: list[type[CommandHandlerBase]] = [
     ClimateRemoteClimateStateCommand,
     ClimateRemoteTemperatureCommand,
     ClimateHeatedSeatsFrontLeftLevelCommand,
+    ClimateHeatedSeatsFrontLevelsCommand,
     ClimateHeatedSeatsFrontRightLevelCommand,
 ]
